@@ -19,7 +19,7 @@ plot_pupil_teacher <- function(data) {
                       label = "UNESCO threshold (40)",
                       colour = "red", size = 3) +
     ggplot2::labs(
-      title   = "Pupil-Teacher Ratio — Ghana Primary Schools",
+      title   = "Pupil-Teacher Ratio - Ghana Primary Schools",
       x       = "Year",
       y       = "Pupils per Teacher",
       caption = "Source: World Bank WDI"

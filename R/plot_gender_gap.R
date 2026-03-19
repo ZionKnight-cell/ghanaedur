@@ -22,7 +22,7 @@ plot_gender_gap <- function(data) {
     ggplot2::geom_point(size = 2) +
     ggplot2::scale_colour_manual(values = c("Female" = "#E91E8C", "Male" = "#1E90FF")) +
     ggplot2::labs(
-      title   = "Gender Gap in Primary Enrollment — Ghana",
+      title   = "Gender Gap in Primary Enrollment - Ghana",
       x       = "Year",
       y       = "Enrollment Rate (%)",
       colour  = "Gender",

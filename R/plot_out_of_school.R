@@ -15,7 +15,7 @@ plot_out_of_school <- function(data) {
     ggplot2::ggplot(ggplot2::aes(x = year, y = out_of_school)) +
     ggplot2::geom_col(fill = "#E74C3C", alpha = 0.8) +
     ggplot2::labs(
-      title   = "Out-of-School Children Rate — Ghana",
+      title   = "Out-of-School Children Rate - Ghana",
       x       = "Year",
       y       = "Out-of-School Rate (%)",
       caption = "Source: World Bank WDI"
